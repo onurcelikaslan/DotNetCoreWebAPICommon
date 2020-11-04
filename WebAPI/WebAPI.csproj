@@ -12,5 +12,9 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj" />
+  </ItemGroup>
+
 
 </Project>
